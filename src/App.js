@@ -1,9 +1,18 @@
 import React from 'react';
+import Intro from './component/Intro';
+import Spreading from './component/Spreading';
+import Array from './component/Array';
+
+
+
+
 
 const App = () => {
   return (
     <div className="app-container">
-      <h1>Hello, React + Webpack! 🚀</h1>
+      <Intro/>
+      <Spreading/>
+      <Array/>
     </div>
   );
 };
