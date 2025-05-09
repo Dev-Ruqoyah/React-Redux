@@ -13,7 +13,7 @@ const result = wrapInDiv(trim(input))
 // console.log(wrapInDiv(toLowerCase(trim(input))));
 // const transform = pipe(trim,toLowerCase,wrapInDiv)
 const transform = pipe(trim,toLowerCase,wrap("div"))
-console.log(transform(input));
+// console.log(transform(input));
 
 
 

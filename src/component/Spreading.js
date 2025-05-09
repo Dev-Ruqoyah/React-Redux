@@ -4,8 +4,8 @@ const person = {id:Math.floor(random(2000000)),name:"Bob",address:{state:"newYor
 const updated = {...person,id:Math.floor(random(2000000)),name:"John",address:{
     state:"LA",city:"USA"
 }}
-console.log(updated);
-console.log(person);
+// console.log(updated);
+// console.log(person);
 
 const detils = [person,updated]
 

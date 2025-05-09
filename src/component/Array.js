@@ -5,17 +5,17 @@ const numbers = [1,4,5,7]
 const added = [...numbers,9]  
 console.log(added);
 const fAdded = [9,...numbers]
-console.log(fAdded);
+// console.log(fAdded);
 
 const index = numbers.indexOf(5)
 const pAdded = [...numbers.slice(0,index),
     9,
     ...numbers.slice(index)]
-console.log(pAdded);
+// console.log(pAdded);
 
 // Removing from Array
 const removed = numbers.filter(num => num !== 4)
-console.log(removed);
+// console.log(removed);
 
 // Updating
 const updated = numbers.map(num => num === 4 ? 1 : num)
