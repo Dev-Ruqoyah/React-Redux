@@ -4,7 +4,7 @@ import React from 'react'
 
 let book = {title:"Harry Porter"}
 
-const publish = (book) =>{
+function publish(book){
    return produce(book, draftBook => {
         draftBook.isPublished = true;
     })

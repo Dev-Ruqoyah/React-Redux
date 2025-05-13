@@ -4,6 +4,8 @@ import Spreading from './component/Spreading';
 import Array from './component/Array';
 import Immutable from './component/Immutable';
 import { Immer } from './component/immer';
+import Counter from './component/Counter';
+import Name from './component/Name';
 
 
 
@@ -18,6 +20,8 @@ const App = () => {
       <Array/>
       <Immutable/>
       <Immer/>
+      <Counter/>
+      <Name/>
     </div>
   );
 };
